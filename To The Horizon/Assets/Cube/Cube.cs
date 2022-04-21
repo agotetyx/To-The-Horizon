@@ -101,7 +101,7 @@ public class Cube : MonoBehaviour
         //Debug.Log("score: " + score);
         Beat2.SetParameter("Damage", 1, false); //reset damage parameter effect
         Beat2.SetParameter("Blink", 1, false);
-        if(Input.GetKey("w")){
+        /*if(Input.GetKey("w")){
             //progress to next segment
             Beat2.SetParameter("Damage", 0, false);
             score = 0; //reset track when hit
@@ -122,8 +122,8 @@ public class Cube : MonoBehaviour
             
             RenderSettings.skybox.Lerp(skybox_material1, skybox_material2, lerp2);
 
-        }
-        if(Input.GetKey("s")){
+        }*/
+        /*if(Input.GetKey("s")){
             Beat2.SetParameter("Blink", 0, false);
         }
         score += 1;
@@ -138,7 +138,7 @@ public class Cube : MonoBehaviour
            
             Beat2.SetParameter("Score", 25, false);
            
-        }
+        }*/
 
         if (score >= 16000 && score <= 19000){
             Beat2.SetParameter("Score", 51, false);

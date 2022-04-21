@@ -118,7 +118,7 @@ Material:
     - Vector3_a9ac85ab2b9249a8826abbea2f36b5f7: {r: -1.21, g: 0.44, b: 2.9, a: 0}
     - _AnimationSpeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BotColor: {r: 0.999997, g: 0.91880345, b: 0.71000224, a: 1}
+    - _BotColor: {r: 1, g: 0.9188, b: 0.71000004, a: 1}
     - _CloudColor: {r: 0.31132078, g: 0.15248705, b: 0.027607676, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
